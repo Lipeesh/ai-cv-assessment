@@ -1,0 +1,21 @@
+# Zone Monitoring Configuration
+# Defines restricted zone boundaries, camera compensation, and visual styling
+
+restricted_zones:
+  - id: "zone_alpha_danger"
+    name: "Heavy Machinery Restricted Area"
+    polygon:
+      - [150, 80]
+      - [600, 80]
+      - [600, 400]
+      - [150, 400]
+    color: [0, 0, 255] # Red in BGR
+    alpha_fill: 0.15   # Subtle transparent highlight
+    border_thickness: 2
+    alert_on_entry: true
+    anchor_to_scene: true # Camera Motion Compensation via optical flow affine tracking
+
+tracker:
+  type: "bytetrack.yaml"
+  track_buffer: 60
+  match_thresh: 0.8

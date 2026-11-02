@@ -1,0 +1,37 @@
+[
+    {
+        "index": 1,
+        "image": "-1-1-20250205131212-950550042_jpg.rf.e8549d5c89d7524f0ca22f59725060fa.jpg",
+        "file_path": "/home/ub/Desktop/COMBINATION/task2/outputs/failure_cases/failure_1.jpg",
+        "failure_type": "False Negative (Missed unhelmet)",
+        "explanation": "Ground truth unhelmet was undetected due to occlusion, atypical angle, or complex background."
+    },
+    {
+        "index": 2,
+        "image": "-1-2-20250205115617-494978122_jpg.rf.51a792b034eabbe3b54030cfaef4ab6b.jpg",
+        "file_path": "/home/ub/Desktop/COMBINATION/task2/outputs/failure_cases/failure_2.jpg",
+        "failure_type": "False Negative (Missed unhelmet)",
+        "explanation": "Ground truth unhelmet was undetected due to occlusion, atypical angle, or complex background."
+    },
+    {
+        "index": 3,
+        "image": "-1-20250205110059-16327183_jpg.rf.3a9a920f27ff129f3a4f5b7473d3ccd0.jpg",
+        "file_path": "/home/ub/Desktop/COMBINATION/task2/outputs/failure_cases/failure_3.jpg",
+        "failure_type": "False Negative (Missed unhelmet)",
+        "explanation": "Ground truth unhelmet was undetected due to occlusion, atypical angle, or complex background."
+    },
+    {
+        "index": 4,
+        "image": "-1-20250205110139-16727187_jpg.rf.f92ec340df59b802ea861bc13837f944.jpg",
+        "file_path": "/home/ub/Desktop/COMBINATION/task2/outputs/failure_cases/failure_4.jpg",
+        "failure_type": "False Negative (Small Object Missed: helmet)",
+        "explanation": "Target helmet occupies few pixels (26px wide), causing low activation in feature pyramid."
+    },
+    {
+        "index": 5,
+        "image": "-1-20250205110159-16927189_jpg.rf.7b6a15f11fb204492c3eb91639ad9990.jpg",
+        "file_path": "/home/ub/Desktop/COMBINATION/task2/outputs/failure_cases/failure_5.jpg",
+        "failure_type": "False Positive (Background/Clothing as helmet)",
+        "explanation": "Model falsely predicted helmet (conf=0.41) on background texture with similar color/geometry."
+    }
+]

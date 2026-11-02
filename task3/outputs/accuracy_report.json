@@ -1,0 +1,76 @@
+{
+  "dataset_summary": {
+    "total_images": 15,
+    "fields_evaluated": [
+      "equipment_id",
+      "serial_number",
+      "model",
+      "voltage",
+      "manufacture_date"
+    ]
+  },
+  "performance_comparison": {
+    "without_preprocessing_raw": {
+      "field_accuracies": {
+        "equipment_id": {
+          "correct": 15,
+          "total": 15,
+          "accuracy_percent": 100.0
+        },
+        "serial_number": {
+          "correct": 14,
+          "total": 15,
+          "accuracy_percent": 93.33
+        },
+        "model": {
+          "correct": 15,
+          "total": 15,
+          "accuracy_percent": 100.0
+        },
+        "voltage": {
+          "correct": 15,
+          "total": 15,
+          "accuracy_percent": 100.0
+        },
+        "manufacture_date": {
+          "correct": 15,
+          "total": 15,
+          "accuracy_percent": 100.0
+        }
+      },
+      "overall_field_accuracy_percent": 98.67,
+      "serial_number_mean_cer": 0.0056
+    },
+    "with_preprocessing": {
+      "field_accuracies": {
+        "equipment_id": {
+          "correct": 14,
+          "total": 15,
+          "accuracy_percent": 93.33
+        },
+        "serial_number": {
+          "correct": 9,
+          "total": 15,
+          "accuracy_percent": 60.0
+        },
+        "model": {
+          "correct": 5,
+          "total": 15,
+          "accuracy_percent": 33.33
+        },
+        "voltage": {
+          "correct": 13,
+          "total": 15,
+          "accuracy_percent": 86.67
+        },
+        "manufacture_date": {
+          "correct": 12,
+          "total": 15,
+          "accuracy_percent": 80.0
+        }
+      },
+      "overall_field_accuracy_percent": 70.67,
+      "serial_number_mean_cer": 0.1611
+    }
+  }
+}

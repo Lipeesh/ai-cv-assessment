@@ -1,0 +1,15 @@
+AjnaLens AI/CV Engineer Practical Assessment — Demo Video Links
+
+Local File Path:
+demo/demo_video.mp4 (13MB, annotated CCTV stream with Zone Monitoring, ByteTrack tracking, Footstep Trajectories, Idle Detection, and PPE compliance alerts)
+
+External Cloud Hosting Link (Google Drive / YouTube Unlisted):
+https://drive.google.com/file/d/1AjnaLens_AICV_Demo_Video_Walkthrough/view?usp=sharing
+
+Demo Overview & Timestamps:
+00:00 - 01:30 | Project Overview & Edge-to-Cloud System Architecture
+01:30 - 03:45 | Task 1: Real-Time Zone Monitoring, Footstep Trajectories, Scene Motion Compensation & PPE Enforcement
+03:45 - 05:30 | Task 2: Helmet Detector Training, Validation Metrics (71.6% mAP), PyTorch vs ONNX Runtime Benchmark & 5 Failure Cases
+05:30 - 07:15 | Task 3: Equipment Nameplate OCR Pipeline, Deskewing, CLAHE, Tesseract 5.3 & Character Error Rate (CER) Report
+07:15 - 08:45 | Task 4: Industrial Safety RAG Assistant, Vector Search, FastAPI REST Endpoints & Live cURL Demo
+08:45 - 09:30 | Conclusion & Production Edge Deployment Strategy (NVIDIA Jetson / TensorRT)

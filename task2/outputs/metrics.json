@@ -1,0 +1,14 @@
+{
+    "model": "YOLO11m",
+    "dataset": "Hard Hat Detection",
+    "map50": 0.7156,
+    "map50_95": 0.4512,
+    "precision_per_class": {
+        "helmet": 0.8142,
+        "unhelmet": 0.6327
+    },
+    "recall_per_class": {
+        "helmet": 0.8842,
+        "unhelmet": 0.4929
+    }
+}

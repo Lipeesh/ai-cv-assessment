@@ -1,0 +1,4 @@
+runtime,mean_latency_ms,fps,map50
+PyTorch,8.83,113.23,0.7156
+ONNX Runtime,94.64,10.57,0.7095
+ONNX Runtime FP16,101.49,9.85,0.7095

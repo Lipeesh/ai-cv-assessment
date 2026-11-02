@@ -1,0 +1,347 @@
+{
+  "nameplate_01.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-MOT-7041",
+      "serial_number": "SN-8842-X19B",
+      "model": "1LA7080-2AA10",
+      "voltage": "415V",
+      "manufacture_date": "2023-04-18"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-MOT-7041",
+      "serial_number": "SN-8842-X19B",
+      "model": "1LA7080-2AA10",
+      "voltage": "415V",
+      "manufacture_date": "2023-04-18"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-MOT-7041",
+      "serial_number": "SN-8842-X19B",
+      "model": "1LA7080-2AA10",
+      "voltage": "415V",
+      "manufacture_date": "2023-04-18"
+    }
+  },
+  "nameplate_02.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-PMP-2093",
+      "serial_number": "SN-9102-K44A",
+      "model": "M3BP-160MLB",
+      "voltage": "480V",
+      "manufacture_date": "2022-11-05"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-PMP-2093",
+      "serial_number": "SN-9102-K44A",
+      "model": "M3BP-160MLB",
+      "voltage": "480V",
+      "manufacture_date": "2022-11-05"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-PMP-2093",
+      "serial_number": "SN-9102-K44",
+      "model": "",
+      "voltage": "480V",
+      "manufacture_date": "2022-11-05"
+    }
+  },
+  "nameplate_03.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-GEN-9912",
+      "serial_number": "SN-4431-M02C",
+      "model": "C250-D5B",
+      "voltage": "415V",
+      "manufacture_date": "2021-08-30"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-GEN-9912",
+      "serial_number": "SN-4431-M02C",
+      "model": "C250-D5B",
+      "voltage": "415V",
+      "manufacture_date": "2021-08-30"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-GEN-9912",
+      "serial_number": "SN-4431-M02C",
+      "model": "MODEL",
+      "voltage": "",
+      "manufacture_date": "2021-08-30"
+    }
+  },
+  "nameplate_04.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-SWG-3310",
+      "serial_number": "SN-1094-P77R",
+      "model": "MCSET-17.5KV",
+      "voltage": "230V",
+      "manufacture_date": "2024-01-15"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-SWG-3310",
+      "serial_number": "SN-1094-P77R",
+      "model": "MCSET-17.5KV",
+      "voltage": "230V",
+      "manufacture_date": "2024-01-15"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-SWG-3310",
+      "serial_number": "SN-1094-P77R",
+      "model": "MCSET-17.5KV",
+      "voltage": "230V",
+      "manufacture_date": "2024-01-15"
+    }
+  },
+  "nameplate_05.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-CMP-5520",
+      "serial_number": "SN-7723-Z81L",
+      "model": "GA-37-VSD",
+      "voltage": "400V",
+      "manufacture_date": "2023-09-12"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-CMP-5520",
+      "serial_number": "SN-7723-Z81L",
+      "model": "GA-37-VSD",
+      "voltage": "400V",
+      "manufacture_date": "2023-09-12"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-CMP-5520",
+      "serial_number": "SN-7723-Z81L",
+      "model": "z",
+      "voltage": "400V",
+      "manufacture_date": "2023-09-12"
+    }
+  },
+  "nameplate_06.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-TX-8804",
+      "serial_number": "SN-5219-H33Q",
+      "model": "ONAN-1000KVA",
+      "voltage": "433V",
+      "manufacture_date": "2022-03-24"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-TX-8804",
+      "serial_number": "SN-5219-H33Q",
+      "model": "ONAN-1000KVA",
+      "voltage": "433V",
+      "manufacture_date": "2022-03-24"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-TX-8804",
+      "serial_number": "",
+      "model": "",
+      "voltage": "433V",
+      "manufacture_date": "2022-03-24"
+    }
+  },
+  "nameplate_07.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-PMP-4112",
+      "serial_number": "SN-3390-E58V",
+      "model": "CR-45-HIGH-FLOW",
+      "voltage": "380V",
+      "manufacture_date": "2023-06-19"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-PMP-4112",
+      "serial_number": "SN-3390-E58V",
+      "model": "CR-45-HIGH-FLOW",
+      "voltage": "380V",
+      "manufacture_date": "2023-06-19"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-PMP-4112",
+      "serial_number": "SN-3390-E58V",
+      "model": "",
+      "voltage": "380V",
+      "manufacture_date": "2023-06-19"
+    }
+  },
+  "nameplate_08.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-DRV-6205",
+      "serial_number": "SN-6641-T12W",
+      "model": "GA-700-INDUSTRIAL",
+      "voltage": "480V",
+      "manufacture_date": "2024-02-08"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-DRV-6205",
+      "serial_number": "SN-6641-T12W",
+      "model": "GA-700-INDUSTRIAL",
+      "voltage": "480V",
+      "manufacture_date": "2024-02-08"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-DRV-6205",
+      "serial_number": "SN-664-T12W",
+      "model": "",
+      "voltage": "480V",
+      "manufacture_date": "2024-02-08"
+    }
+  },
+  "nameplate_09.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-DRV-1189",
+      "serial_number": "SN-2984-Y70K",
+      "model": "VLT-FC-302",
+      "voltage": "415V",
+      "manufacture_date": "2022-07-14"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-DRV-1189",
+      "serial_number": "SN-2984-Y70K",
+      "model": "VLT-FC-302",
+      "voltage": "415V",
+      "manufacture_date": "2022-07-14"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-DRV-1189",
+      "serial_number": "SN-2084Y70K",
+      "model": "VLT-FC-302",
+      "voltage": "415V",
+      "manufacture_date": ""
+    }
+  },
+  "nameplate_10.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-PMP-8350",
+      "serial_number": "SN-4812-N66D",
+      "model": "AHLSTAR-WPP32",
+      "voltage": "415V",
+      "manufacture_date": "2021-12-03"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-PMP-8350",
+      "serial_number": "SN-4812-N66D",
+      "model": "AHLSTAR-WPP32",
+      "voltage": "415V",
+      "manufacture_date": "2021-12-03"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-PMP-8350",
+      "serial_number": "SN-4812-N66D",
+      "model": "AHLSTAR-WPP32",
+      "voltage": "415V",
+      "manufacture_date": ""
+    }
+  },
+  "nameplate_11.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-VAL-1422",
+      "serial_number": "SN-1950-B88M",
+      "model": "FISHER-DVC6200",
+      "voltage": "24V",
+      "manufacture_date": "2023-10-27"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-VAL-1422",
+      "serial_number": "SN-1950-B88M",
+      "model": "FISHER-DVC6200",
+      "voltage": "24V",
+      "manufacture_date": "2023-10-27"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-VAL-1422",
+      "serial_number": "SN-1950-B88M",
+      "model": "FISHER-DVC6200_",
+      "voltage": "",
+      "manufacture_date": ""
+    }
+  },
+  "nameplate_12.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-MOT-9150",
+      "serial_number": "SN-7301-C45Z",
+      "model": "ENERGY-SAVER-X",
+      "voltage": "460V",
+      "manufacture_date": "2022-05-19"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-MOT-9150",
+      "serial_number": "SN-7301-C45Z",
+      "model": "ENERGY-SAVER-X",
+      "voltage": "460V",
+      "manufacture_date": "2022-05-19"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-MOT-9150",
+      "serial_number": "SN-7301-C45Z",
+      "model": "\u2014s*ENERGY-SAVERX",
+      "voltage": "460V",
+      "manufacture_date": "2022-05-19"
+    }
+  },
+  "nameplate_13.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-CMP-2708",
+      "serial_number": "SN-8114-U29J",
+      "model": "SM-12-SIGMA",
+      "voltage": "400V",
+      "manufacture_date": "2024-03-01"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-CMP-2708",
+      "serial_number": "SN-8114-U29",
+      "model": "SM-12-SIGMA",
+      "voltage": "400V",
+      "manufacture_date": "2024-03-01"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-CMP2708",
+      "serial_number": "SN-8114-U29",
+      "model": "SM-12-SIGMA",
+      "voltage": "400V",
+      "manufacture_date": "2024-03-01"
+    }
+  },
+  "nameplate_14.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-UPS-5040",
+      "serial_number": "SN-6047-L83G",
+      "model": "93PM-120KVA",
+      "voltage": "400V",
+      "manufacture_date": "2023-01-22"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-UPS-5040",
+      "serial_number": "SN-6047-L83G",
+      "model": "93PM-120KVA",
+      "voltage": "400V",
+      "manufacture_date": "2023-01-22"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-UPS-5040",
+      "serial_number": "",
+      "model": "",
+      "voltage": "400V",
+      "manufacture_date": "2023-01-22"
+    }
+  },
+  "nameplate_15.jpg": {
+    "ground_truth": {
+      "equipment_id": "EQ-PLC-0981",
+      "serial_number": "SN-3720-F51S",
+      "model": "MELSEC-IQ-R04",
+      "voltage": "240V",
+      "manufacture_date": "2023-08-11"
+    },
+    "raw_predictions": {
+      "equipment_id": "EQ-PLC-0981",
+      "serial_number": "SN-3720-F51S",
+      "model": "MELSEC-IQ-R04",
+      "voltage": "240V",
+      "manufacture_date": "2023-08-11"
+    },
+    "preprocessed_predictions": {
+      "equipment_id": "EQ-PLC-0981",
+      "serial_number": "SN-3720-F51S",
+      "model": "\u2014",
+      "voltage": "240V",
+      "manufacture_date": "2023-08-11"
+    }
+  }
+}

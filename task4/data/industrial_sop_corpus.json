@@ -1,0 +1,50 @@
+[
+  {
+    "doc_id": "SOP-PPE-001",
+    "title": "Industrial Personal Protective Equipment (PPE) Compliance Standard",
+    "category": "PPE_Policy",
+    "content": "All personnel, contractors, and visitors entering active industrial fabrication zones or heavy construction areas must wear Type I or Type II hard hats conforming to ANSI/ISEA Z89.1-2014. Hard hats must be inspected daily for cracks, dents, and suspension strap degradation. In designated Zone Alpha and overhead crane operating envelopes, Class E (electrical rated up to 20,000V) or Class G (rated up to 2,200V) hard hats are mandatory. Personnel detected without safety helmets in restricted zones must be immediately alerted, and work must halt until compliance is restored.",
+    "applicable_zones": ["zone_alpha_danger", "crane_envelope", "fabrication_bay"],
+    "osha_reference": "OSHA 1926.100(a)"
+  },
+  {
+    "doc_id": "SOP-ZONE-002",
+    "title": "Restricted Zone Entry and Dwell Time Protocols",
+    "category": "Zone_Monitoring",
+    "content": "Restricted hazardous zones are demarcated by physical barriers or calibrated virtual bounding polygons. Unauthorized pedestrian entry into high-risk machinery zones triggers an instantaneous Level-1 ZONE_ENTRY security alert. If a worker remains stationary or idle within a restricted boundary for greater than 5.0 consecutive seconds (displacement < 20 pixels), an IDLE_ALERT event is dispatched to control room dispatchers. Prolonged idle dwell indicates potential worker incapacitation, entrapment, heat exhaustion, or unauthorized lingering near high-voltage busbars.",
+    "applicable_zones": ["zone_alpha_danger", "transformer_yard", "press_cell"],
+    "osha_reference": "OSHA 1910.212"
+  },
+  {
+    "doc_id": "SOP-LOTO-003",
+    "title": "Hazardous Energy Control: Lock-Out / Tag-Out (LOTO) Procedures",
+    "category": "Maintenance",
+    "content": "Before conducting maintenance, servicing, or inspection on rotating machinery (such as induction motors EQ-MOT-7041 or centrifugal slurry pumps EQ-PMP-2093), workers must enforce zero-energy state isolation under OSHA 29 CFR 1910.147. All circuit breakers must be switched to OFF, physically locked with designated safety padlocks, and tagged with the technician's identification and timestamp. Residual electrical charge in drive capacitors (such as 480V Yaskawa GA-700 drives) must be discharged and verified with a calibrated multimeter before physical touch.",
+    "applicable_zones": ["motor_control_center", "pump_house", "substation"],
+    "osha_reference": "OSHA 1910.147"
+  },
+  {
+    "doc_id": "SOP-VOLT-004",
+    "title": "High Voltage Safety Clearances and Flash Boundary Standards",
+    "category": "Electrical_Safety",
+    "content": "Electrical distribution transformers (such as EQ-TX-8804 operating at 11kV/433V) and MV switchgear panels (EQ-SWG-3310 operating at 17.5kV) possess a Minimum Approach Distance (MAD) of 3.0 meters for uninsulated personnel. Arc flash protective boundaries extend 1.5 meters from exposed energized terminals. Arc-rated face shields (minimum 12 cal/cm² rating) and voltage-rated rubber insulating gloves with leather protectors (Class 2, rated up to 17,000V AC) are required for testing or voltage verification.",
+    "applicable_zones": ["substation", "switchgear_room"],
+    "osha_reference": "NFPA 70E Standard for Electrical Safety in the Workplace"
+  },
+  {
+    "doc_id": "SOP-EQUIP-005",
+    "title": "Equipment Identification and Asset Tracking Protocol",
+    "category": "Asset_Management",
+    "content": "Every industrial asset deployed in the plant must feature an engraved metal nameplate detailing the asset ID, serial number, model, rated voltage, and manufacture date. During routine maintenance rounds, optical character recognition (OCR) inspection devices scan equipment nameplates. If the extracted rated voltage does not match the distribution feed voltage (e.g. connecting a 230V device to a 415V bus), an immediate electrical hazard lockout is enforced to prevent insulation breakdown and catastrophic fire.",
+    "applicable_zones": ["all_zones"],
+    "osha_reference": "ISO 55001 Asset Management Systems"
+  },
+  {
+    "doc_id": "SOP-EMERG-006",
+    "title": "Emergency Evacuation and Automated Alarm Dispatching",
+    "category": "Emergency_Response",
+    "content": "Upon triggering of an unacknowledged restricted zone emergency or simultaneous multi-worker PPE violation, automated alarm systems broadcast audible visual beacons. Emergency muster points are located outside the primary perimeter gates. All emergency exits must maintain at least 1.2 meters of unencumbered clearance at all times. Automated camera tracking tracks worker exit velocities to confirm complete zone evacuation during drills or genuine industrial emergencies.",
+    "applicable_zones": ["facility_wide"],
+    "osha_reference": "OSHA 1910.36"
+  }
+]

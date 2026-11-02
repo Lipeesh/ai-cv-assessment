@@ -1,0 +1,38 @@
+# Detection, Tracking, and Alert Thresholds
+
+detection:
+  people_confidence: 0.45
+  helmet_confidence: 0.40
+  iou_threshold: 0.50
+  input_resolution: [640, 640]
+
+tracking:
+  tracker_yaml: "bytetrack.yaml"
+  track_buffer: 60
+  track_high_thresh: 0.5
+  track_low_thresh: 0.1
+  new_track_thresh: 0.6
+
+idle_alert:
+  enabled: true
+  threshold_seconds: 5.0
+  movement_threshold_pixels: 20
+  cooldown_seconds: 10.0
+
+ppe_violation:
+  enabled: true
+  head_region_ratio: 0.40 # Top 40% of bounding box
+  person_association_iou: 0.10
+  violation_confirmation_frames: 3
+
+ocr:
+  min_confidence: 40.0
+  bilateral_filter_d: 9
+  bilateral_sigma_color: 75
+  bilateral_sigma_space: 75
+  adaptive_block_size: 19
+  adaptive_c: 9
+
+rag:
+  similarity_top_k: 3
+  relevance_score_threshold: 0.65
